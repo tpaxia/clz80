@@ -60,6 +60,15 @@ The 8251 UART can be easily added (possibly using a socket) to the empty Q1 spac
 
 IMPORTANT!!!! Once you fit the 8251 don't run it together with the unmodified NC-Z monitor, in particular the serial I/O routines.
 
+## J5 PINOUT
+
+The manual describes the J5 serial connector, but the UART signals are missing.
+
+CTS is at PIN 17. It has to be connected to ground for the UART to transmit (connect it to pin 10).
+DTR - PIN 6.
+RTS - PIN 8.
+DSR - PIN 7.
+
 # Software
 
 The software here assumes a CLZ80-4 board (with UART), 16K ram and 8K eprom. The interrupt links (63-64-67) are all set. Ram starts at $0000. The 8K rom space is mapped from $E000 to $FFFF. Note that when configured for 2K eproms the rom sockets must be used in this order: Q49-Q51-Q50-Q52 (i.e. Q50 starts at $F000 and Q51 at $E800). Both Q48 Proms are supported, so the Basic can start from both $FC00 and $FC02.
