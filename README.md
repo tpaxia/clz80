@@ -11,6 +11,7 @@ Version 0.1  Pe-release
 -   [CLZ80 Microcomputer users's manual](https://archive.org/details/clz80)
 -   [Nanocomputer NBZ80 Archive](https://forum.vcfed.org/index.php?threads/free-archive-for-all-the-single-board-computers-i-have-worked-on-over-the-years.1209293/)
 
+![NBZ80S](Pictures/nbz80s.jpg)
 # Overview
 
 This repository contains ports for the CLZ80 Z80 trainer board commerialized in 1978 by SGS ATES.
