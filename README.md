@@ -27,7 +27,7 @@ The base system could also save and load programs on a cassette recorder or a TT
 
 The CLZ80 board contains a small prom which makes a jump to a routine in ROM from location 0 at reset. It's in socket Q48. While the NBZ80 prom jumps to $FC02, the CLZ80-4 board has a different prom which jumps to $FC00.
 
-# Software
+## SGS Software
 
 The standard software was contained in the NC-Z and NE-Z eproms (2K in 1 or 2 chips). The first one included the monitor program and the routines to control the miniterminal keyboard. The NE eprom was used together with the experiment board of the NBZ80S.
 
