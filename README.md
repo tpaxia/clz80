@@ -76,7 +76,7 @@ The software here assumes a CLZ80-4 board (with UART), 16K ram and 8K eprom. The
 
 The code is derived from Nascom 8K Basic 4.7 (included in ROMWBW) with a modified memory map and serial I/O on the 8251.
 
-The executable is at $E000. The first page ($00-$FF) has the interrupt jump tables. $100-$145 is reserved for the variables and buffers for the serial I/O. The Basic workspace starts at $145. Finally the Basic program is stored starting from $23E.
+The executable is at $E000. The first page ($00-$FF) has the interrupt jump tables. $100-$145 is reserved for the variables and  serial I/O buffers. The Basic workspace starts at $145. Finally the Basic program is stored starting from $23E.
 
 
 
