@@ -1,0 +1,16 @@
+**/*.[Bb][Ii][Nn]
+**/*.[Cc][Oo][Mm]
+**/*.[Rr][Oo][Mm]
+**/*.com
+**/*.eeprom
+**/*.hex
+**/*.img
+**/*.lib
+**/*.lst
+**/*.o
+**/*.prn
+**/*.rel
+**/*.sym
+**/*.sys
+**/*.tmp
+**/*/font*.asm
