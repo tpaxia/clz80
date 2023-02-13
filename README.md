@@ -7,8 +7,9 @@ Version 0.1  Pe-release
 
 ### Related Pages
 
--   [Nanocomputer NBZ80 Archive](https://forum.vcfed.org/index.php?threads/free-archive-for-all-the-single-board-computers-i-have-worked-on-over-the-years.1209293/)
+-   [CLZ80 Microcomputer System - Introduction](https://drive.google.com/file/d/1IllsLbFTDK88EcuQzJ1aRzmlek3LI8XC/view)
 -   [CLZ80 Microcomputer users's manual](https://archive.org/details/clz80)
+-   [Nanocomputer NBZ80 Archive](https://forum.vcfed.org/index.php?threads/free-archive-for-all-the-single-board-computers-i-have-worked-on-over-the-years.1209293/)
 
 # Overview
 
