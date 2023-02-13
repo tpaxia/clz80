@@ -13,7 +13,7 @@ Version 0.1  Pe-release
 
 # Overview
 
-This repository contains ports for the CLZ80 Nanocomputer Z80 trainer board commerialized in 1978 by SGS ATES.
+This repository contains ports for the CLZ80 Z80 trainer board commerialized in 1978 by SGS ATES.
 
 The base configuration (the NBZ80), contained a Z80 running at 2.4756 Mhz, 4K DRAM, 2K ROM, 2 Z80-PIOs and a "Miniterminal" to control the Monitor program. The system was also sold in a "Super" configuration, NBZ80-S with an additonal experiment board, a power supply and a metal case. 
 
