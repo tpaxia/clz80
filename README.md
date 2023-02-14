@@ -73,8 +73,13 @@ The manual describes the J5 serial connector, but the UART signals are missing.
 | 8   | RTS           |
 | 7   | DSR           |
 
-
 CTS has to be connected to ground for the UART to transmit (connect it to a gorung pin, i.e. 10).
+
+## NEZ80 Expansion Daughterboard
+
+The NBZ80HL had connectors on the NEZ80 board to install an optional daugherboard including the basic ROMS. They can be installed on a regular NEZ80. The part numbers are:
+
+5650956-5 for the receptacles and 5650945-5 for the plugs. You will need two each to make and connect an expansion board. They do have a key, so make sure that they are oriented so that the PCB and components face the CLZ80 board.
 
 # Software
 
