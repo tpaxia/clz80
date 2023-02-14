@@ -66,10 +66,15 @@ IMPORTANT!!!! Once you fit the 8251 don't enable it's transmission together with
 
 The manual describes the J5 serial connector, but the UART signals are missing.
 
-CTS is at PIN 17. It has to be connected to ground for the UART to transmit (connect it to pin 10).
-DTR - PIN 6.
-RTS - PIN 8.
-DSR - PIN 7.
+| Pin | 8251 Signal   |
+| ----| --------------|
+| 17  | CTS           |
+| 6   | DTR           |
+| 8   | RTS           |
+| 7   | DSR           |
+
+
+CTS has to be connected to ground for the UART to transmit (connect it to a gorung pin, i.e. 10).
 
 # Software
 
