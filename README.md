@@ -60,7 +60,7 @@ It's recommended to configure the board to use more modern 2K EEprom chips (AT28
 
 The 8251 UART can be easily added (it's recommended to add a socket) to the empty Q1 space. The links can be configured for TTY (current loop), RS232 or TTL modes. The configuration is described on page 27 of the CLZ80 manual, altough there are a few typos. For example, the TTL mode must also include link 58. In addition, while the manual in table 1.7.III talks about the UART interrupts, it doesn't say where they are routed. The 8251 activates the B port strobe signal on PIO 1 (~BSTB Pin 17).
 
-IMPORTANT!!!! Once you fit the 8251 don't enable it's transmission together with the unmodified NC-Z monitor, in particular the serial I/O routines which set PA4 to output mode.
+IMPORTANT!!!! Once you fit the 8251 don't enable its transmission together with the unmodified NC-Z monitor, in particular the serial I/O routines which set PA4 to output mode.
 
 ## J5 PINOUT
 
